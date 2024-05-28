@@ -1,0 +1,172 @@
+body {
+    font-family: "Times New Roman", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #94bbe9;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    border: 2px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    border-color: #94bbe9;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    box-shadow:     
+        inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.uno {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.uno img {
+    width: 50px;
+    height: 50px;
+    align-self: center;
+}
+
+textarea {
+    background-color: #f3d5e2;
+    font-family: "Times New Roman", Helvetica, Arial, sans-serif;
+    box-shadow: 
+        inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    flex: 1 1 100%;
+    max-width: 600px;
+    min-width: 200px;
+}
+
+form.formulario {
+    flex: 1 1 auto;
+    min-width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+form.formulario select {
+    background-color: #f3d5e2;
+    box-shadow: 
+        inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+.mas {
+    background-color: #97e3e4;
+    font-size: 12px; 
+    padding: 5px 10px; 
+    border-width: 1px;
+    box-shadow: 
+        inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    align-self: center;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.square {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 10px 10px 20px 10px;
+    text-align: center;
+    border-color: #3f5efb;
+}
+
+.square button {
+    margin-bottom: 10px;
+}
+
+.estilo2 p {
+    background-color: #f3d5e2;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+}
+
+.final p {
+    background-color: #fabfb7;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 10%;  
+}
+
+.f2 p {
+    text-decoration: line-through;
+}
+
+.pendiente p {
+    background-color: #fdf9c4;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+}
+
+.porhacer p {
+    background-color: #ffda9e;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+}
+
+.eliminado {
+    background-color: #f18b8b;
+    border-width: 1px;
+    font-family: "Times New Roman", Helvetica, Arial, sans-serif;
+    box-shadow: 
+        inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.editar {
+    background-color: #ccf18b;
+    border-width: 1px;
+    font-family: "Times New Roman", Helvetica, Arial, sans-serif;
+    box-shadow: 
+        inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.parr {
+    display: inline-flex;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .uno {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    select {
+        width: 100%;
+    }
+}
